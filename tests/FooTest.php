@@ -18,6 +18,6 @@ class FooTest extends TestCase
     {
         $fut = new Foo;
 
-        $this->assertNull($fut->make(), 'Make has to fail right here.');
+        $this->assertNotNull($fut->make(), 'Make has to fail right here.');
     }
 }
