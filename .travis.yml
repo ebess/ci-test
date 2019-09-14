@@ -7,4 +7,4 @@ install:
   - travis_retry composer install --no-interaction --no-suggest
 
 script:
-  - phpunit -- --coverage-clover=coverage.xml
+  - phpunit
