@@ -6,6 +6,6 @@ class Foo
 {
     public function make(): int
     {
-        return 5;
+        return 6;
     }
 }
